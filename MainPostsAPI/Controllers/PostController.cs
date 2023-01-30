@@ -46,7 +46,7 @@ namespace MainPostsAPI.Controllers
             return Ok(itens);
         }
 
-        [HttpPost("new_post")]
+        /*[HttpPost("new_post")]
         public async Task<ActionResult<PostVO>> CreateNewPost(PostVO vo)
         {
             if (vo == null) return BadRequest();
@@ -68,6 +68,6 @@ namespace MainPostsAPI.Controllers
             var status = await _repository.DeletePost(id);
             if(!status) return BadRequest();
             return Ok(status);
-        }
+        }*/
     }
 }

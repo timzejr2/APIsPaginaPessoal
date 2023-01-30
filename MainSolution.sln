@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainPostsAPI", "MainPostsAPI\MainPostsAPI.csproj", "{12FC9BED-C230-43D5-8E11-4B7071FCE0ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagesAPI", "ImagesAPI\ImagesAPI.csproj", "{5EFE596D-CE96-4290-BD97-A419A94D78FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImagesAPI", "ImagesAPI\ImagesAPI.csproj", "{5EFE596D-CE96-4290-BD97-A419A94D78FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{92CB85D4-F94E-4753-B661-350B821F7645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageAPIGateway", "PageAPIGateway\PageAPIGateway.csproj", "{D78B77CB-49B1-456C-A6F2-471EE5C0E8A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{5EFE596D-CE96-4290-BD97-A419A94D78FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EFE596D-CE96-4290-BD97-A419A94D78FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EFE596D-CE96-4290-BD97-A419A94D78FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78B77CB-49B1-456C-A6F2-471EE5C0E8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78B77CB-49B1-456C-A6F2-471EE5C0E8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78B77CB-49B1-456C-A6F2-471EE5C0E8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78B77CB-49B1-456C-A6F2-471EE5C0E8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{12FC9BED-C230-43D5-8E11-4B7071FCE0ED} = {B98F9AC5-F26A-4BEF-A794-3F28D0C61376}
 		{5EFE596D-CE96-4290-BD97-A419A94D78FF} = {B98F9AC5-F26A-4BEF-A794-3F28D0C61376}
+		{D78B77CB-49B1-456C-A6F2-471EE5C0E8A3} = {92CB85D4-F94E-4753-B661-350B821F7645}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {249ADE6D-9B98-4C2A-B565-01CB11DC1E1A}

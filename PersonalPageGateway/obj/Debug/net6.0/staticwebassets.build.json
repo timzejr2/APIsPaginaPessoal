@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pqiBVNUKgTvDABWzuB7uvdpKhYnBcqkUiHjjC4LXrHo=",
+  "Source": "PersonalPageGateway",
+  "BasePath": "_content/PersonalPageGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

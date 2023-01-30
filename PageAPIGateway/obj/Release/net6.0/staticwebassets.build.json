@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QNdsGlIyQnF3vYgzTKrrr7OkZnPKRuf+pfgQqpWM+tM=",
+  "Source": "PageAPIGateway",
+  "BasePath": "_content/PageAPIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
