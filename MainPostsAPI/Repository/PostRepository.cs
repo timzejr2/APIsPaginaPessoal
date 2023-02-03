@@ -27,7 +27,7 @@ namespace MainPostsAPI.Repository
 
         public async Task<IEnumerable<PostVO>> FindAllProjects()
         {
-            List<Post> posts = await _context.Posts.Where(p => p.IsAProject == true).ToListAsync();
+            List<Post> posts = await _context.Posts.Where(p => p.IsAProject == true).OrderByDescending(x => x.Id).ToListAsync();
 
             return _mapper.Map<List<PostVO>>(posts);
         }
